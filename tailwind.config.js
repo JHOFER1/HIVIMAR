@@ -13,10 +13,16 @@ export default {
 
     extend: {
       colors: {
-        primary: '#191B27',
+        primary: '#437EED',
         secondary: '#FFD2E4',
-        third: '#C3003C'
-      }
+        third: '#C3003C',
+        textPrimary:'#464D5E'
+      },
+
+      fontWeight: {
+        'semibold': 600,
+        'bold': 800, // Peso de fuente extranegrilta
+      },
     },
   },
   plugins: [],

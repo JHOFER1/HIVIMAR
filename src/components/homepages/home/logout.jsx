@@ -8,9 +8,9 @@ export const Logout = () => {
     }
 
     return (
-        <div className='flex justify-center'>
+        <div className='fixed w-2/3 mt-10 '>
             <button
-                className='w-2/4 p-1 flex items-center justify-center rounded-full bg-rose-600'
+                className='w-2/4 p-1 flex items-center justify-center rounded-full bg-primary'
                 onClick={handelLogout}>
                 Logout
             </button>
